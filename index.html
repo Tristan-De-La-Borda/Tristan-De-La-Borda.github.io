@@ -144,7 +144,7 @@
 
     /* PROJECTS */
     #projects { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
-    .projects-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+    .projects-grid { display: grid; grid-template-columns: repeat(2,2fr); gap: 20px; }
     .project-card { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 28px; cursor: pointer; transition: border-color 0.25s, transform 0.25s; display: flex; flex-direction: column; gap: 16px; }
     .project-card:hover { border-color: rgba(124,92,252,0.45); transform: translateY(-4px); }
     .project-card-header { display: flex; align-items: flex-start; gap: 14px; }
@@ -435,9 +435,9 @@
       <div class="project-card reveal" onclick="openModal('modal1')">
         <div class="project-card-header">
           <div class="project-icon icon-blue">🖥️</div>
-          <div><div class="project-title">Home Lab Server Setup</div><div class="project-tag">Infrastructure</div></div>
+          <div><div class="project-title">Cloud Infrastructure Project</div><div class="project-tag">Infrastructure</div></div>
         </div>
-        <div class="project-desc">Personal home lab environment for self-hosting services, experimenting with virtualisation, and testing cloud-native tooling in a controlled setting.</div>
+        <div class="project-desc">Setup and Deployed Proxmox server with Network Attached Storage on server grade racks</div>
         <div class="project-footer">
           <div class="project-tech"><span class="tech-tag">Linux</span><span class="tech-tag">Docker</span><span class="tech-tag">Proxmox</span></div>
           <button class="project-expand">Read more →</button>
@@ -447,9 +447,9 @@
       <div class="project-card reveal" onclick="openModal('modal2')">
         <div class="project-card-header">
           <div class="project-icon icon-purple">☁️</div>
-          <div><div class="project-title">Azure Cloud Deployment</div><div class="project-tag">Cloud Computing</div></div>
+          <div><div class="project-title">GCP PDF Scanner Project</div><div class="project-tag">Cloud Computing</div></div>
         </div>
-        <div class="project-desc">Designed and deployed a cloud infrastructure solution on Microsoft Azure as part of the BTS Cloud Computing programme, applying IaC principles.</div>
+        <div class="project-desc">Designed a PDF scanning tool to be hosted on Google Cloud Platform for testing and familiarisation with the platform.</div>
         <div class="project-footer">
           <div class="project-tech"><span class="tech-tag">Azure</span><span class="tech-tag">Terraform</span><span class="tech-tag">ARM</span></div>
           <button class="project-expand">Read more →</button>
@@ -459,9 +459,21 @@
       <div class="project-card reveal" onclick="openModal('modal3')">
         <div class="project-card-header">
           <div class="project-icon icon-green">⚙️</div>
-          <div><div class="project-title">DevOps Pipeline Project</div><div class="project-tag">DevOps</div></div>
+          <div><div class="project-title">Moviestream Project</div><div class="project-tag">DevOps</div></div>
         </div>
-        <div class="project-desc">Implemented a CI/CD pipeline and automated deployment workflow during Devoteam training, applying container orchestration best practices.</div>
+        <div class="project-desc">Implemented a hybrid cloud streaming service using modern day architectural design and infrastructure as code deployment.</div>
+        <div class="project-footer">
+          <div class="project-tech"><span class="tech-tag">Docker</span><span class="tech-tag">Kubernetes</span><span class="tech-tag">Ansible</span></div>
+          <button class="project-expand">Read more →</button>
+        </div>
+      </div>
+
+      <div class="project-card reveal" onclick="openModal('modal3')">
+        <div class="project-card-header">
+          <div class="project-icon icon-green">⚙️</div>
+          <div><div class="project-title">Home Lab Server Setup</div><div class="project-tag">DevOps</div></div>
+        </div>
+        <div class="project-desc">Setup for how I host my own services on servers for personal use.</div>
         <div class="project-footer">
           <div class="project-tech"><span class="tech-tag">Docker</span><span class="tech-tag">Kubernetes</span><span class="tech-tag">Ansible</span></div>
           <button class="project-expand">Read more →</button>
