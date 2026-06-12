@@ -468,7 +468,7 @@
         </div>
       </div>
 
-      <div class="project-card reveal" onclick="openModal('modal3')">
+      <div class="project-card reveal" onclick="openModal('modal4')">
         <div class="project-card-header">
           <div class="project-icon icon-green">⚙️</div>
           <div><div class="project-title">Home Lab Server Setup</div><div class="project-tag">Infrastructure</div></div>
@@ -489,18 +489,17 @@
   <div class="modal">
     <div class="modal-close" onclick="closeModal('modal1')">✕</div>
     <div class="modal-tag">// Infrastructure</div>
-    <h3>Home Lab Server Setup</h3>
-    <div class="modal-sub">Personal Project · Ongoing</div>
+    <h3>Hybrid Cloud Project</h3>
+    <div class="modal-sub">BTS Cloud Computing · Lycée Guillaume Kroll · 2026</div>
     <div class="modal-body">
-      This project involves building and maintaining a home lab server environment for personal learning and experimentation. The setup includes a bare-metal hypervisor running multiple virtual machines, each dedicated to different services such as self-hosted media, network monitoring, and container workloads.<br><br>
-      The lab serves as a practical testing ground for cloud and infrastructure concepts learned during the BTS Cloud Computing programme — allowing real-world application of virtualisation, networking, and service deployment without cloud costs. It also provides hands-on experience with backup strategies, uptime monitoring, and network segmentation using VLANs.
+      Hybrid cloud project overview here
     </div>
     <div class="modal-section-title">// technologies used</div>
     <div class="modal-tech">
       <span class="chip chip-blue">Linux (Debian)</span><span class="chip chip-blue">Docker</span><span class="chip chip-purple">Proxmox VE</span><span class="chip chip-purple">Nginx</span><span class="chip chip-green">Portainer</span><span class="chip chip-green">VLANs / Networking</span>
     </div>
     <div class="modal-section-title">// documentation</div>
-    <a href="./docs/homelab-doc.pdf" class="modal-dl modal-dl-ghost" target="_blank">↓ Download Project Documentation</a>
+    <a href="./docs/arcane-vault.pdf" class="modal-dl modal-dl-ghost" target="_blank">↓ Download Project Documentation</a>
   </div>
 </div>
 
@@ -508,18 +507,17 @@
   <div class="modal">
     <div class="modal-close" onclick="closeModal('modal2')">✕</div>
     <div class="modal-tag">// Cloud Computing</div>
-    <h3>Azure Cloud Deployment</h3>
-    <div class="modal-sub">BTS Cloud Computing · Lycée Guillaume Kroll · 2025–2026</div>
+    <h3>Google Cloud Platform Project</h3>
+    <div class="modal-sub">BTS Cloud Computing · Lycée Guillaume Kroll · 2026</div>
     <div class="modal-body">
-      As part of the BTS Cloud Computing curriculum, this project involved designing, provisioning, and managing a cloud infrastructure solution on Microsoft Azure. The work covered resource group organisation, virtual network design, compute and storage provisioning, and applying role-based access control (RBAC).<br><br>
-      Infrastructure-as-Code was used to automate the deployment pipeline, ensuring reproducibility and reducing manual configuration errors. The project also incorporated monitoring dashboards, cost management alerts, and documentation of the full architecture for handover purposes.
+      Write about GCP project here short summary probably
     </div>
     <div class="modal-section-title">// technologies used</div>
     <div class="modal-tech">
-      <span class="chip chip-blue">Microsoft Azure</span><span class="chip chip-blue">Terraform</span><span class="chip chip-purple">ARM Templates</span><span class="chip chip-purple">Azure Monitor</span><span class="chip chip-green">RBAC</span><span class="chip chip-green">VNet / NSG</span>
+      <span class="chip chip-blue">Google</span><span class="chip chip-blue">Terraform</span><span class="chip chip-green">VM Templates</span><span class="chip chip-purple">BigQuery</span>
     </div>
     <div class="modal-section-title">// documentation</div>
-    <a href="./docs/azure-deployment-doc.pdf" class="modal-dl modal-dl-ghost" target="_blank">↓ Download Project Documentation</a>
+    <a href="./docs/GCP-project.pdf" class="modal-dl modal-dl-ghost" target="_blank">↓ Download Project Documentation</a>
   </div>
 </div>
 
@@ -527,37 +525,35 @@
   <div class="modal">
     <div class="modal-close" onclick="closeModal('modal3')">✕</div>
     <div class="modal-tag">// DevOps</div>
-    <h3>DevOps Pipeline Project</h3>
-    <div class="modal-sub">Devoteam Training · Lycée Guillaume Kroll · 2026</div>
+    <h3>Moviestream</h3>
+    <div class="modal-sub">Hybrid Cloud Project · Lycée Guillaume Kroll · 2026</div>
     <div class="modal-body">
-      During the DevOps training delivered by Devoteam as part of the BTS programme, this project focused on building and automating a full CI/CD pipeline. The goal was to containerise an application, manage its deployment lifecycle, and implement infrastructure automation using configuration management tools.<br><br>
-      The pipeline included automated testing stages, container image building and pushing to a registry, and orchestrated deployment using Kubernetes. Ansible was used for environment provisioning, ensuring consistent and idempotent server configurations across environments.
+      Short explanation of my jellyfin moviestreaming project goes here
     </div>
     <div class="modal-section-title">// technologies used</div>
     <div class="modal-tech">
-      <span class="chip chip-blue">Docker</span><span class="chip chip-blue">Kubernetes</span><span class="chip chip-purple">Ansible</span><span class="chip chip-purple">GitLab CI</span><span class="chip chip-green">Helm</span><span class="chip chip-green">Container Registry</span>
+      <span class="chip chip-blue">Docker</span><span class="chip chip-blue">Kubernetes</span><span class="chip chip-green">Click Up</span>
     </div>
     <div class="modal-section-title">// documentation</div>
-    <a href="./docs/devops-pipeline-doc.pdf" class="modal-dl modal-dl-ghost" target="_blank">↓ Download Project Documentation</a>
+    <a href="./docs/moviestream-documentation.pdf" class="modal-dl modal-dl-ghost" target="_blank">↓ Download Moviestream Documentation</a>
   </div>
 </div>
 
-<div class="modal-overlay" id="modal3" onclick="closeModalOutside(event,'modal3')">
+<div class="modal-overlay" id="modal3" onclick="closeModalOutside(event,'modal4')">
   <div class="modal">
-    <div class="modal-close" onclick="closeModal('modal3')">✕</div>
+    <div class="modal-close" onclick="closeModal('modal4')">✕</div>
     <div class="modal-tag">// DevOps</div>
-    <h3>DevOps Pipeline Project</h3>
-    <div class="modal-sub">Devoteam Training · Lycée Guillaume Kroll · 2026</div>
+    <h3>Home Lab Server Setup</h3>
+    <div class="modal-sub">Tristan De La Borda · Home Hosted Servers · 2026</div>
     <div class="modal-body">
-      During the DevOps training delivered by Devoteam as part of the BTS programme, this project focused on building and automating a full CI/CD pipeline. The goal was to containerise an application, manage its deployment lifecycle, and implement infrastructure automation using configuration management tools.<br><br>
-      The pipeline included automated testing stages, container image building and pushing to a registry, and orchestrated deployment using Kubernetes. Ansible was used for environment provisioning, ensuring consistent and idempotent server configurations across environments.
+      Home lab setup explanation + overview to be written
     </div>
     <div class="modal-section-title">// technologies used</div>
     <div class="modal-tech">
-      <span class="chip chip-blue">Docker</span><span class="chip chip-blue">Kubernetes</span><span class="chip chip-purple">Ansible</span><span class="chip chip-purple">GitLab CI</span><span class="chip chip-green">Helm</span><span class="chip chip-green">Container Registry</span>
+      <span class="chip chip-blue">Proxmox</span><span class="chip chip-blue">Docker</span><span class="chip chip-purple">GitLab</span><span class="chip chip-green">Torch</span><span class="chip chip-green">Linux</span>
     </div>
     <div class="modal-section-title">// documentation</div>
-    <a href="./docs/devops-pipeline-doc.pdf" class="modal-dl modal-dl-ghost" target="_blank">↓ Download Project Documentation</a>
+    <a href="./docs/home-lab.pdf" class="modal-dl modal-dl-ghost" target="_blank">↓ Download Home Lab Documentation</a>
   </div>
 </div>
 
